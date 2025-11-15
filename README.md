@@ -46,20 +46,11 @@ A fun, lightweight implementation of Tic-Tac-Toe featuring clean UI and smooth l
 ---
 
 ## 📈 GitHub Stats  
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pratyakshjain&show_icons=true&theme=tokyonight" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pratyakshjain&layout=compact&theme=tokyonight" height="170" />
-</p>
+
 <!-- GitHub Readme Stats -->
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=pratyakshjain&show_icons=true&count_private=true&theme=tokyonight" alt="Pratyaksh's GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pratyakshjain&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
-
-<!-- GitHub Streak / Trophies -->
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=pratyakshjain&theme=tokyonight" alt="streak stats" />
-  <img src="https://github-profile-trophy.vercel.app/?username=pratyakshjain&theme=tokyonight&margin-w=10" alt="trophies" />
 </p>
 name: Generate Contribution Snake GIF
 
@@ -93,23 +84,6 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-<p align="center">
-  <img src="./contrib-snake.gif" alt="Contribution Snake" />
-</p>
-<h1 align="center">Hi 👋 I'm Pratyaksh Jain</h1>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pratyakshjain&show_icons=true&count_private=true&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="./contrib-snake.gif" alt="Contribution Snake" width="700"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=pratyakshjain&theme=tokyonight" />
-  <img src="https://github-profile-trophy.vercel.app/?username=pratyakshjain&theme=tokyonight" />
-</p>
 
 
 ---
