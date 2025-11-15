@@ -52,40 +52,6 @@ A fun, lightweight implementation of Tic-Tac-Toe featuring clean UI and smooth l
   <img src="https://github-readme-stats.vercel.app/api?username=pratyakshjain&show_icons=true&count_private=true&theme=tokyonight" alt="Pratyaksh's GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pratyakshjain&layout=compact&theme=tokyonight" alt="Top Languages" />
 </p>
-name: Generate Contribution Snake GIF
-
-on:
-  schedule:
-    - cron: '0 0 * * 0' # runs weekly (UTC). Change as you like.
-  workflow_dispatch: {}
-
-jobs:
-  build-snake:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-      - name: Install contrib-snake generator
-        run: |
-          npm install -g @platane/snk
-      - name: Generate snake GIF
-        run: |
-          snk --user pratyakshjain --output contrib-snake.gif --theme dark --dimensions 700 160
-      - name: Commit generated GIF
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add contrib-snake.gif || true
-          git commit -m "chore: update contribution snake" || echo "no changes to commit"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
 ---
 
 ## 🤝 Connect With Me  
